@@ -1,0 +1,94 @@
+.DateSection {
+	display: flex;
+	padding: 2rem 7rem;
+	height: 100vh;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+}
+
+.DateText {
+	font-family: Ogg-Roman, sans-serif;
+	font-size: 2.8rem;
+	width: 60%;
+}
+
+.ImgContainer {
+	width: 40%;
+	height: 100%;
+	padding-top: 3rem;
+}
+
+.ImgContainer img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.DateHeading {
+	text-transform: uppercase;
+	font-size: 2.4rem;
+	position: relative;
+	margin-bottom: 1rem;
+	padding-bottom: 5px;
+	color: #6f043a;
+}
+
+.DateHeading::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 3rem;
+	height: 2px;
+	background-color: #000;
+}
+
+.VenueBox {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.Venue {
+	width: max-content;
+	margin-top: 3rem;
+}
+
+.Button {
+	background-color: #6f043a;
+	padding: 8px 16px;
+	text-transform: capitalize;
+	color: #fff;
+	font-family: inherit;
+	font-size: 1.8rem;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	width: 40%;
+	margin-top: 1.5rem;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+	.VenueBox {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.DateText {
+		font-size: 1.8rem;
+		width: 70%;
+	}
+
+	.DateSection {
+		padding: 2rem 1rem;
+		align-items: flex-start;
+		width: 100vw;
+	}
+
+	.ImgContainer {
+		width: 90%;
+	}
+}
