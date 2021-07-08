@@ -14,7 +14,14 @@ const DateSection = () => {
 				<div className={classes.Venue}>
 					<h5 className={classes.DateHeading}>the venue</h5>
 					<p className={classes.DateText}>DR K.J Nwufoh Hall IAAR&T Moor Plantation Ibadan</p>
-					<button className={classes.Button}>get directions</button>
+					<a
+						className={classes.Button}
+						href="https://maps.app.goo.gl/quQpVeeugujyxUKv9"
+						target="_blank"
+						rel="noreferrer"
+					>
+						get directions
+					</a>
 				</div>
 			</div>
 		</section>

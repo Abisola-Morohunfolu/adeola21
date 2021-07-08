@@ -1,0 +1,52 @@
+.Location {
+	width: 100%;
+	background-color: #6f043a;
+	padding: 2rem 7rem;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+}
+
+.LocationHeading {
+	/* width: 35%; */
+	height: min-content;
+	font-size: 2.4rem;
+	position: relative;
+	margin-bottom: 1rem;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: right;
+}
+
+.LocationHeading::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 3rem;
+	height: 2px;
+	background-color: #fff;
+}
+
+.Location iframe {
+	flex: 1;
+	height: 80%;
+	margin: 5rem 2rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+	.Location {
+		flex-direction: column;
+		padding: 2rem 1rem;
+	}
+
+	.LocationHeading {
+		text-align: left;
+	}
+
+	.Location iframe {
+		margin: 2rem 0rem 0;
+		max-width: 100%;
+	}
+}
