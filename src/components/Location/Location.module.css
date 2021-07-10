@@ -1,6 +1,6 @@
 .Location {
 	width: 100%;
-	background-color: #6f043a;
+	background-color: #fff;
 	padding: 2rem 7rem;
 	display: flex;
 	justify-content: center;
@@ -15,7 +15,7 @@
 	margin-bottom: 1rem;
 	padding-bottom: 5px;
 	text-transform: uppercase;
-	color: #fff;
+	color: #6f043a;
 	text-align: right;
 }
 
@@ -26,7 +26,7 @@
 	bottom: 0;
 	width: 3rem;
 	height: 2px;
-	background-color: #fff;
+	background-color: #6f043a;
 }
 
 .Location iframe {
@@ -38,7 +38,7 @@
 @media only screen and (max-width: 600px) {
 	.Location {
 		flex-direction: column;
-		padding: 2rem 1rem;
+		padding: 2rem;
 	}
 
 	.LocationHeading {

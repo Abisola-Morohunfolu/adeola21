@@ -27,16 +27,6 @@
 	font-weight: 700;
 }
 
-.Logo::after,
-.Date::after {
-	content: '';
-	position: fixed;
-	bottom: 2%;
-	border-right: 1px dotted #000;
-	width: 5px;
-	height: 85vh;
-}
-
 @media only screen and (max-width: 600px) {
 	.Logo,
 	.Date {
