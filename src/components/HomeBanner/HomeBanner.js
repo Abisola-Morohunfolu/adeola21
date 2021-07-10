@@ -11,7 +11,7 @@ const HomeBanner = () => {
 				</h1>
 			</div>
 			<a
-				href="https://res.cloudinary.com/abisola/image/upload/v1625893957/Wedding-Program_b1zlpz.jpg/"
+				href="https://res.cloudinary.com/abisola/image/upload/v1625893957/Wedding-Program_b1zlpz.jpg"
 				download="adeola-program"
 				className={classes.Link}
 				target="_blank"
