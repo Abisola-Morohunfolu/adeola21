@@ -13,10 +13,13 @@
 	background-color: #fff;
 }
 
-.Nav span {
+.Nav a {
 	padding: 0 1rem;
 	cursor: pointer;
 	transition: all 0.7s ease-in-out;
+	font-family: inherit;
+	text-decoration: none;
+	color: #000;
 }
 
 .Logo,

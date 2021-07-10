@@ -2,7 +2,7 @@ import classes from './Registry.module.css';
 
 const Registry = () => {
 	return (
-		<section className={classes.Registry}>
+		<section className={classes.Registry} id="gift_registry">
 			<div>
 				<h4 className={classes.Heading}>gift registry</h4>
 				<p className={classes.Paragraph}>

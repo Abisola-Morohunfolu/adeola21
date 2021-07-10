@@ -4,7 +4,7 @@ const Location = () => {
 	const q = 'Institute+of+Agricultural+Research+and+Training';
 
 	return (
-		<section className={classes.Location}>
+		<section className={classes.Location} id="location">
 			<h4 className={classes.LocationHeading}>the location</h4>
 			<iframe
 				title="Location"

@@ -9,8 +9,8 @@ const Header = () => {
 				<span>O</span>
 			</div>
 			<nav className={classes.Nav}>
-				<span>location</span>
-				<span>gift registry</span>
+				<a href="#location">location</a>
+				<a href="#gift_registry">gift registry</a>
 			</nav>
 			<div className={classes.Date}>
 				<span>10</span>
